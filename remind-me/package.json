@@ -5,11 +5,11 @@
   "scripts": {
     "start": "node server.js"
   },
-  "dependencies": {
-    "express": "^4.18.2",
-    "firebase-admin": "^11.11.0",
-    "onesignal-node": "^5.0.0",
-    "node-cron": "^3.0.2",
-    "dotenv": "^16.3.1"
-  }
+"dependencies": {
+  "express": "^4.18.2",
+  "firebase-admin": "^11.11.0",
+  "onesignal-node": "^4.7.0",  // Updated from 5.0.0
+  "node-cron": "^3.0.2",
+  "dotenv": "^16.3.1"
+}
 }
